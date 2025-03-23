@@ -7,6 +7,10 @@
 .headerlist{
   font-size:20px;
 }
+.headerlist a {
+  text-decoration: none; /* リンクの下線を消す */
+  color: black; /* リンクの色を変更（任意） */
+}
 
 li{
   list-style:none;
