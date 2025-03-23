@@ -1,12 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face{
-  font-family:ekifont;
-  src: url('KikaiChokokuJIS-Md.otf') format('otf');
-	font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+@font-face {
+  font-family: 'KikaiChokoku';
+  src: url('fonts/KikaiChokokuJIS-Md.otf') format('opentype');
+}
+
+body {
+  font-family: 'KikaiChokoku', sans-serif;
 }
 
 .header{
@@ -19,7 +20,7 @@
   position: fixed; /* ページ上部に固定 */
   top: 0; /* 画面の最上部に配置 */
   left: 0;
-	font-family:ekifont;
+	
 	
 z-index: 1000; /* 他の要素の上に表示 */
 }
