@@ -3,7 +3,7 @@
 
 @font-face{
   font-family:ekifont;
-  src: url("KikaiChokokuJIS-Md.otf") format(‘opentype’);
+  src: url("KikaiChokokuJIS-Md.otf") format("opentype");
   font-display: swap;
 }
 
