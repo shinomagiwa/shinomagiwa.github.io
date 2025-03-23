@@ -1,20 +1,40 @@
-<style>
+@charset "utf-8";
+/* CSS Document */
+.header{
+	display: flex; /* ロゴとメニューを横並び */
+	align-items: center; /* 縦方向の中央揃え */
+	width: 100%; /* 幅を画面いっぱいに */
+	background-color: #333; /* ヘッダーの背景色 */
+  color: white; /* 文字の色 */
+  padding: 15px 20px; /* 上下・左右の余白 */
+  position: fixed; /* ページ上部に固定 */
+  top: 0; /* 画面の最上部に配置 */
+  left: 0;
+	font-family: "Osaka-mono", "MS Gothic", "monospace";
+	
+z-index: 1000; /* 他の要素の上に表示 */
+}
 
 .header-logo{
   font-size:30px;
-  color:red;
 }
 
-.headerlist{
-  font-size:25px;
+.headerlist ul{
+  font-size:20px;
+  list-style: none; /* リストの点を消す */
+	display: flex; /* 横並びにする */
 }
+.headerlist li {
+  margin-left: 30px; /* メニュー同士の間隔 */
+}
+
 .headerlist a {
   text-decoration: none; /* リンクの下線を消す */
-  color: black; /* リンクの色を変更（任意） */
+  color: white; /* リンクの色を変更（任意） */
 }
 
-li{
-  list-style:none;
-}
+div{font-family: "Osaka-mono", "MS Gothic", "monospace";};
 
-</style>
+h3{
+	color:black;
+}
