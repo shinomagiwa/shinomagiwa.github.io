@@ -4,7 +4,8 @@
   font-size:40px;}
   color:red;
 }
-li{
+.header-list{
+  list-style:none;
   color:yellow;
 }
 </style>
