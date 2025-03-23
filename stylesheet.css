@@ -9,7 +9,11 @@ body {
 }
 
 .headerlist{
-  list-style:none;
   font-size:30px;
 }
+
+li{
+  list-style:none;
+}
+
 </style>
