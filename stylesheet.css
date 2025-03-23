@@ -1,10 +1,44 @@
-<style>
+* {
+  margin:0; padding:0;
+}
 
-.headertitle{
-  font-size:1px;
+header .headline{
+    line-height: 100px;
+    float: left;
+    font-size: 30px;
+    font-color:white;
+    margin-left: 100px;
+    font-family:ekifont,sans-serif;
 }
-.headerlist{
-  list-style:none;
-  font-size:30px;
+.nav-list{
+    line-height: 100px;
+    float: left;
+    margin-left:30px;
+    list-style:none;
 }
-</style>
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  font-color:white;
+}
+
+a { 
+  font-color:white;
+  text-decoration:none;
+}
+
+
+@font-face{
+  font-family:ekifont;
+  src: url("KikaiChokokuJIS-Md.otf") format(‘opentype’);
+  font-display: swap;
+}
+header{
+  height: 100px;
+  width: 100%;
+  padding:15px 0;
+  background-color: #337079;
+  font-color:white;
+  font-family:ekifont,sans-serif;
+}
