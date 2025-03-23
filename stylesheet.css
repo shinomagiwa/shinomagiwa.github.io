@@ -16,7 +16,7 @@ header .headline{
     margin-left:30px;
     list-style:none;
 }
-.nav-list-item {
+.headerlist{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
@@ -42,3 +42,15 @@ header{
   font-color:white;
   font-family:ekifont,sans-serif;
 }
+
+*/<style>
+
+.headertitle{
+  font-size:1px;
+}
+.headerlist{
+  list-style:none;
+  font-size:30px;
+}
+</style>
+/*
