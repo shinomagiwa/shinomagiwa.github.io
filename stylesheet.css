@@ -20,6 +20,7 @@ body {
   position: fixed; /* ページ上部に固定 */
   top: 0; /* 画面の最上部に配置 */
   left: 0;
+	font-family: 'KikaiChokoku', sans-serif;
 	
 	
 z-index: 1000; /* 他の要素の上に表示 */
