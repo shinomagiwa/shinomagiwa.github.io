@@ -48,7 +48,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 /* ホバー時のスタイル */
 .header-nav a:hover {
-  background-color: #555;
+  background-color: #777;
 }
 
 
