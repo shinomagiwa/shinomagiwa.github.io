@@ -47,7 +47,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 	transition: background 0.3s; /* ホバー時のアニメーション */
 }
 /* ホバー時のスタイル */
-.header-nav a:hover {
+.headerlist a:hover {
   background-color: #777;
 }
 
