@@ -49,13 +49,12 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 /* ホバー時のスタイル */
 .headerlist a:hover {
-  background-color: #fff;
-	color: #000;
+  /*background-color: #fff;*/
+	color: #959595;
 }
 
 .selected{
-	background-color: #fff;
-	color: #000 !important;
+	color: #959595 !important;
 }
 
 /*真ん中に寄せる*/
