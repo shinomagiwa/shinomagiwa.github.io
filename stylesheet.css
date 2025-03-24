@@ -42,6 +42,11 @@ z-index: 1000; /* 他の要素の上に表示 */
 .headerlist a {
   text-decoration: none; /* リンクの下線を消す */
   color: white; /* リンクの色を変更（任意） */
+	transition: background 0.3s; /* ホバー時のアニメーション */
+}
+/* ホバー時のスタイル */
+.header-nav a:hover {
+  background-color: #555;
 }
 
 
