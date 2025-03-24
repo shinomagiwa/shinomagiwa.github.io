@@ -51,6 +51,13 @@ z-index: 1000; /* 他の要素の上に表示 */
   background-color: #777;
 }
 
+/*真ん中に寄せる*/
+.main{
+	max-width: 800px;
+  margin: 100px auto; /* ヘッダーとの間隔を広げる */
+  padding: 20px;
+}
+
 
 
 h3{
