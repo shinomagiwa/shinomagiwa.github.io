@@ -11,9 +11,12 @@
   src: url('fonts/OradanoGSRR.ttf') format('truetype');
 }
 
-body {
+/*body {
   font-family: 'OradanoGSRR', sans-serif;
-}
+}*/
+
+body { font-family: "Chisaki", serif; }
+
 
 .header{
 	display: flex; /* ロゴとメニューを横並び */
