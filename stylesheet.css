@@ -126,7 +126,7 @@ h3{
   width: 280px;
   text-decoration: none;
   color: black;
-　font-family: "NewTegomin", sans-serif;
+　font-family: 'NewTegomin', sans-serif;
 }
 
 .ticket-inner {
@@ -134,7 +134,7 @@ h3{
   padding: 15px;
   background: white;
   position: relative;
-  font-family: "NewTegomin", sans-serif;
+  font-family: 'NewTegomin', sans-serif;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
