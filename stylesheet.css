@@ -26,8 +26,9 @@
   font-family: 'NewTegomin', sans-serif;
 }*/
 
+/*
 body { font-family: "Chisaki", serif; }
-
+*/
 
 .header{
 	display: flex; /* ロゴとメニューを横並び */
@@ -86,7 +87,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 
 .head {
-  font-family: "ちさき", serif; /* TypeSquareフォント */
+  font-family: "Chisaki", serif; /* TypeSquareフォント */
 }
 
 .somewhere {
