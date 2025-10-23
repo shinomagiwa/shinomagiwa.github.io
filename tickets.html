@@ -7,6 +7,21 @@
   <script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?d77e61f0cf334ed3bf3bb9bfa4a6226c" charset="utf-8"></script>
 </head>
 
+<script>
+  // 今日の日付を生成
+  const today = new Date();
+  const year = today.getFullYear().toString().slice(-2); // 下2桁
+  const month = ("0" + (today.getMonth() + 1)).slice(-2);
+  const day = ("0" + today.getDate()).slice(-2);
+  const dateText = `${year}.${month}.${day}`;
+
+  // .js-date を持つ要素すべてに日付を入れる
+  document.querySelectorAll(".js-date").forEach(el => {
+    el.textContent = dateText;
+  });
+</script>
+
+  
 <body>
 
   <!-- ヘッダー -->
