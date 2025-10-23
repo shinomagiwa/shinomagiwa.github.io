@@ -22,9 +22,9 @@
   font-family: 'OradanoGSRR', sans-serif;
 }*/
 
-/*body {
+body {
   font-family: 'NewTegomin', sans-serif;
-}*/
+}
 
 /*
 body { font-family: "Chisaki", serif; }
@@ -67,7 +67,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 	transition: color 0.2s ease; /* 色変化を滑らかに */
 }
 
-/* ホバー時のスタイル */
+/* カーソルを合わせた時のスタイル */
 .headerlist a:hover {
   /*background-color: #fff;*/
 	color: #959595;
@@ -85,14 +85,6 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 
 
-
-.head {
-  font-family: "Chisaki", serif; /* TypeSquareフォント */
-}
-
-.somewhere {
-  font-family: "NewTegomin", sans-serif; /* アップロードフォント */
-}
 
 
 
