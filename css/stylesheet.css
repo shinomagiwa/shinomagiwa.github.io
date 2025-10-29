@@ -9,8 +9,8 @@ body {
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background-color: #255; /* ヘッダーの背景色 */
-  color: #5CBCCF; /* 文字の色 */
+	background-color: #333; /* ヘッダーの背景色 */
+  color: white; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
   top: 0; /* 画面の最上部に配置 */
@@ -36,7 +36,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 .headerlist a {
   text-decoration: none; /* リンクの下線を消す */
-  color: #5CBCCF; /* リンクの色を変更（任意） */
+  color: white; /* リンクの色を変更（任意） */
 	/*padding: 8px 12px;  クリックしやすくする */
   transition: background 0.2s;
 	transition: color 0.2s ease; /* 色変化を滑らかに */
@@ -45,11 +45,11 @@ z-index: 1000; /* 他の要素の上に表示 */
 /* カーソルを合わせた時のスタイル */
 .headerlist a:hover {
   /*background-color: #fff;*/
-	color: #9BD4DE;
+	color: #959595;
 }
 
 .selected{
-	font-color: #9BD4DE;
+	font-color: #959595;
 }
 
 /*真ん中に寄せる*/
