@@ -70,6 +70,9 @@ z-index: 1000; /* 他の要素の上に表示 */
   padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
 }
 
+.somewhere{
+	color: #5CBCCF;
+}
 
 
 /*h3{
