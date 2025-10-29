@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+  font-family: 'NewTegomin', serif;
+}
+
 .header{
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
