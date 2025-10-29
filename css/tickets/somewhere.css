@@ -1,1 +1,99 @@
-css
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  font-family: 'NewTegomin', serif;
+}
+
+.header{
+	display: flex; /* ロゴとメニューを横並び */
+	align-items: center; /* 縦方向の中央揃え */
+	width: 100%; /* 幅を画面いっぱいに */
+	background-color: white; /* ヘッダーの背景色 */
+  color: #9BD4DE; /* 文字の色 */
+  padding: 15px 20px; /* 上下・左右の余白 */
+  position: fixed; /* ページ上部に固定 */
+  top: 0; /* 画面の最上部に配置 */
+  left: 0;
+	/*font-family: 'OradanoGSRR', sans-serif;*/
+	
+	
+z-index: 1000; /* 他の要素の上に表示 */
+}
+
+.header-logo{
+  font-size:30px;
+}
+
+.headerlist ul{
+  font-size:20px;
+  list-style: none; /* リストの点を消す */
+	display: flex; /* 横並びにする */
+}
+.headerlist li {
+  margin-left: 30px; /* メニュー同士の間隔 */
+}
+
+.headerlist a {
+  text-decoration: none; /* リンクの下線を消す */
+  color: #9BD4DE; /* リンクの色を変更（任意） */
+	/*padding: 8px 12px;  クリックしやすくする */
+  transition: background 0.2s;
+	transition: color 0.2s ease; /* 色変化を滑らかに */
+}
+
+/* カーソルを合わせた時のスタイル */
+.headerlist a:hover {
+  /*background-color: #fff;*/
+	color: ##5CBCCF;
+}
+
+.selected{
+	font-color: ##5CBCCF;
+}
+
+/*真ん中に寄せる*/
+.main{
+	max-width: 800px;
+  margin: 100px auto; /* ヘッダーとの間隔を広げる */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.no-dots {
+  list-style: none; /* リストマーカーを消す */
+  padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
+}
+
+
+
+/*h3{
+	color:black;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ===== 背景：淡い紙風 ===== 
+body {
+  background: #f8f3e7; /* ベースの紙色（薄いクリーム） 
+  background-image:
+    radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  background-size: 3px 3px, 100% 200%;
+}
