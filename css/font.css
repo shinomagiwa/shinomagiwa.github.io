@@ -4,19 +4,19 @@
 
 @font-face {
 	font-family: 'KikaiChokoku'; 
-	src: url('.fonts/KikaiChokokuJIS-Md.otf')
+	src: url('../fonts/KikaiChokokuJIS-Md.otf')
 	format('opentype'); 
 } 
 
 @font-face {
 	font-family: 'OradanoGSRR'; 
-	src: url('.fonts/OradanoGSRR.ttf') 
+	src: url('../fonts/OradanoGSRR.ttf') 
 		format('truetype'); font-display: swap; 
 } 
 
 @font-face { 
 	font-family: 'NewTegomin'; 
-	src: url('.fonts/NewTegomin-Regular.ttf') 
+	src: url('../fonts/NewTegomin-Regular.ttf') 
 	format('truetype'); 
 	font-display: swap; 
 }
