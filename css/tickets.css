@@ -1,1 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
 
+@font-face {
+  font-family: 'KikaiChokoku';
+  src: url('fonts/KikaiChokokuJIS-Md.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'OradanoGSRR';
+  src: url('fonts/OradanoGSRR.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+  font-family: 'NewTegomin';
+  src: url('fonts/NewTegomin-Regular.ttf') format('truetype');
+	font-display: swap;
+}
+
+/*body {
+  font-family: 'OradanoGSRR', sans-serif;
+}*/
+
+body {
+  font-family: 'NewTegomin', sans-serif;
+}
+
+/*
+body { font-family: "Chisaki", serif; }
+*/
+
+.header{
+	display: flex; /* ロゴとメニューを横並び */
+	align-items: center; /* 縦方向の中央揃え */
+	width: 100%; /* 幅を画面いっぱいに */
+	background-color: #333; /* ヘッダーの背景色 */
+  color: white; /* 文字の色 */
+  padding: 15px 20px; /* 上下・左右の余白 */
+  position: fixed; /* ページ上部に固定 */
+  top: 0; /* 画面の最上部に配置 */
+  left: 0;
+	/*font-family: 'OradanoGSRR', sans-serif;*/
+	
+	
+z-index: 1000; /* 他の要素の上に表示 */
+}
+
+.header-logo{
+  font-size:30px;
+}
+
+.headerlist ul{
+  font-size:20px;
+  list-style: none; /* リストの点を消す */
+	display: flex; /* 横並びにする */
+}
+.headerlist li {
+  margin-left: 30px; /* メニュー同士の間隔 */
+}
+
+.headerlist a {
+  text-decoration: none; /* リンクの下線を消す */
+  color: white; /* リンクの色を変更（任意） */
+	/*padding: 8px 12px;  クリックしやすくする */
+  transition: background 0.2s;
+	transition: color 0.2s ease; /* 色変化を滑らかに */
+}
+
+/* カーソルを合わせた時のスタイル */
+.headerlist a:hover {
+  /*background-color: #fff;*/
+	color: #959595;
+}
+
+.selected{
+	font-color: #959595;
+}
+
+/*真ん中に寄せる*/
+.main{
+	max-width: 800px;
+  margin: 100px auto; /* ヘッダーとの間隔を広げる */
+  padding: 20px;
+}
+
+
+
+
+
+
+
+.no-dots {
+  list-style: none; /* リストマーカーを消す */
+  padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
+}
+
+
+
+h3{
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== 切符一覧のレイアウト ===== */
+.ticket-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* ===== 切符デザイン ===== */
+/* 切符全体の見た目 */
+.ticket {
+  display: inline-block; /* 横並びできるように */
+  width: 220px; /* 切符の横幅 */
+  height: 120px; /* 切符の縦幅 */
+  background: #faf5e6; /* 紙っぽい薄いベージュ */
+  border: 2px solid #333; /* 外枠の線 */
+  position: relative; /* 擬似要素（鋏跡）の基準位置にするため */
+  text-decoration: none; /* リンクの下線を消す */
+  color: #000; /* 文字色を黒に */
+  transition: 0.3s; /* ホバー時のアニメになめらかさを追加 */
+}
+
+/* ================================
+   切符ホバー時のM型切り欠き演出
+   ================================ */
+
+.ticket-inner {
+  position: relative; /* 擬似要素の基準にする */
+  overflow: hidden;   /* 内側だけに表示制限 */
+}
+
+/* M型切り欠き（ホバー時のみ表示） */
+.ticket-inner::after {
+  content: "";
+  position: absolute;
+  right: -30px; /* 初期位置：外に隠しておく */
+  bottom: 0;
+  width: 40px;
+  height: 25px;
+  background: white;
+  clip-path: polygon(
+    0% 0%, 100% 0%, 100% 100%, 
+    65% 100%, 50% 70%, 35% 100%, 
+    0% 100%
+  ); /* M型の形 */
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  transition: right 0.3s ease-out;
+}
+
+/* ホバーで切り欠きが現れる */
+.ticket:hover .ticket-inner::after {
+  right: 0;
+}
+
+/* ===== パーツごとの装飾 ===== */
+.ticket-date {
+  font-size: 12px;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.ticket-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ticket-to {
+  font-size: 14px;
+  text-align: right;
+  color: #333;
+}
+
+
+/* ===== 背景：淡い紙風 ===== */
+body {
+  background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
+  background-image:
+    radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0));
+  background-size: 3px 3px, 100% 200%;
+}
