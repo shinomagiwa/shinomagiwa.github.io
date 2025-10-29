@@ -1,9 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-  font-family: 'NewTegomin', serif;
-}
+
 
 .header{
 	display: flex; /* ロゴとメニューを横並び */
@@ -86,7 +84,9 @@ h3{
 
 
 
-
+body {
+  font-family: 'NewTegomin', serif;
+}
 
 
 /* ===== 背景：淡い紙風 ===== */
