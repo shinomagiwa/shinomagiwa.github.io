@@ -121,27 +121,41 @@ h3{
 }
 
 /* ===== 切符デザイン ===== */
+/* 切符全体の見た目 */
 .ticket {
-  display: block;
-  width: 280px;
-  text-decoration: none;
-  color: black;
-　font-family: 'NewTegomin', sans-serif;
+  display: inline-block; /* 横並びできるように */
+  width: 220px; /* 切符の横幅 */
+  height: 120px; /* 切符の縦幅 */
+  background: #faf5e6; /* 紙っぽい薄いベージュ */
+  border: 2px solid #333; /* 外枠の線 */
+  position: relative; /* 擬似要素（鋏跡）の基準位置にするため */
+  text-decoration: none; /* リンクの下線を消す */
+  color: #000; /* 文字色を黒に */
+  transition: 0.3s; /* ホバー時のアニメになめらかさを追加 */
 }
 
-.ticket-inner {
-  border: 2px solid black;
-  padding: 15px;
-  background: white;
-  position: relative;
-  font-family: 'NewTegomin', sans-serif;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+/* --- 鋏跡（ホバーで出す） --- */
+.ticket::after {
+  content: ""; /* 擬似要素を作る */
+  position: absolute; /* ticket内で位置調整 */
+  right: 18px; /* 右側に配置 */
+  bottom: 0; /* 下端に配置 */
+  width: 32px; /* 鋏跡の幅 */
+  height: 28px; /* 鋏跡の高さ */
+  background: #faf5e6; /* 切符と同じ色（くり抜き風に見せるため） */
+  border-right: 2px solid #333; /* 右の輪郭線 */
+  border-bottom: 2px solid #333; /* 下の輪郭線 */
+  /* M型の鋏カットを作る */
+  clip-path: polygon(
+    0 100%, 0 40%, 35% 40%, 50% 0, 65% 40%, 100% 40%, 100% 100%
+  );
+  opacity: 0; /* 最初は非表示 */
+  transition: opacity 0.3s; /* ふわっと出るように */
 }
 
-/* ===== ホバー時の浮き上がり演出（簡易） ===== */
-.ticket:hover .ticket-inner {
-  transform: translateY(-3px);
-  box-shadow: 4px 4px 0px black;
+/* --- ホバー時に鋏跡を出す --- */
+.ticket:hover::after {
+  opacity: 1;
 }
 
 /* ===== パーツごとの装飾 ===== */
