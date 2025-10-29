@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+	font-family: 'KikaiChokoku'; 
+	src: url('.fonts/KikaiChokokuJIS-Md.otf')
+	format('opentype'); 
+} 
+
+@font-face {
+	font-family: 'OradanoGSRR'; 
+	src: url('.fonts/OradanoGSRR.ttf') 
+		format('truetype'); font-display: swap; 
+} 
+
+@font-face { 
+	font-family: 'NewTegomin'; 
+	src: url('.fonts/NewTegomin-Regular.ttf') 
+	format('truetype'); 
+	font-display: swap; 
+}
+
+body { font-family: 'NewTegomin', serif; }
