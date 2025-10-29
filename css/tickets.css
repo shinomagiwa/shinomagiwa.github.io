@@ -121,51 +121,40 @@ h3{
 }
 
 /* ===== 切符デザイン ===== */
-/* 切符全体の見た目 */
 .ticket {
-  display: inline-block; /* 横並びできるように */
-  width: 220px; /* 切符の横幅 */
-  height: 120px; /* 切符の縦幅 */
-  background: #faf5e6; /* 紙っぽい薄いベージュ */
-  border: 2px solid #333; /* 外枠の線 */
-  position: relative; /* 擬似要素（鋏跡）の基準位置にするため */
-  text-decoration: none; /* リンクの下線を消す */
-  color: #000; /* 文字色を黒に */
-  transition: 0.3s; /* ホバー時のアニメになめらかさを追加 */
+  display: inline-block;
+  width: 220px;
+  height: 120px;
+  background: #faf5e6;
+  border: 2px solid #333;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+  overflow: hidden; /* 切り欠きがはみ出さないように */
 }
 
-/* ================================
-   切符ホバー時のM型切り欠き演出
-   ================================ */
-
-.ticket-inner {
-  position: relative; /* 擬似要素の基準にする */
-  overflow: hidden;   /* 内側だけに表示制限 */
-}
-
-/* M型切り欠き（ホバー時のみ表示） */
-.ticket-inner::after {
+/* ===== 切り欠き（M型） ===== */
+.ticket::after {
   content: "";
   position: absolute;
-  right: -30px; /* 初期位置：外に隠しておく */
-  bottom: 0;
+  right: 10px;        /* ← 右端から少し内側（位置調整） */
+  bottom: -30px;      /* ← 初期は下にはみ出して非表示 */
   width: 40px;
-  height: 25px;
-  background: white;
+  height: 30px;
+  background: #faf5e6; /* 切符と同じ色 */
+  border: 2px solid #333;
+  border-top: none;    /* 上側の線はいらない */
   clip-path: polygon(
-    0% 0%, 100% 0%, 100% 100%, 
-    65% 100%, 50% 70%, 35% 100%, 
-    0% 100%
-  ); /* M型の形 */
-  border-left: 2px solid black;
-  border-top: 2px solid black;
-  border-right: 2px solid black;
-  transition: right 0.3s ease-out;
+    0% 0%, 100% 0%, 100% 100%,
+    65% 100%, 50% 60%, 35% 100%, 0% 100%
+  );
+  transition: bottom 0.2s ease-out;
 }
 
-/* ホバーで切り欠きが現れる */
-.ticket:hover .ticket-inner::after {
-  right: 0;
+/* ===== ホバー時にだけ切り欠きを表示 ===== */
+.ticket:hover::after {
+  bottom: 0; /* ぴったり角に収まる */
 }
 
 /* ===== パーツごとの装飾 ===== */
