@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+/*
 @font-face {
   font-family: 'KikaiChokoku';
   src: url('../fonts/KikaiChokokuJIS-Md.otf') format('opentype');
@@ -18,7 +18,7 @@
 	font-display: swap;
 }
 
-/*body {
+body {
   font-family: 'OradanoGSRR', sans-serif;
 }*/
 
