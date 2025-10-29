@@ -110,70 +110,49 @@ h3{
 
 
 
-
-
-/* ===== 切符一覧のレイアウト ===== */
+/* ===== 切符一覧のレイアウト ===== */ 
 .ticket-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 30px;
-}
-
+	display: flex;
+	flex-wrap: wrap; 
+	gap: 20px; 
+	margin-top: 30px; 
+} 
 /* ===== 切符デザイン ===== */
 .ticket {
-  display: inline-block;
-  width: 220px;
-  height: 120px;
-  background: #faf5e6;
-  border: 2px solid #333;
-  position: relative;
-  text-decoration: none;
-  color: #000;
-  transition: 0.2s;
-  overflow: hidden; /* 切り欠きがはみ出さないように */
-}
+	display: block; 
+	width: 280px; 
+	text-decoration: none; 
+	color: black; 　
+	font-family: 'NewTegomin', sans-serif; 
+} 
+.ticket-inner {
+	border: 2px solid black; 
+	padding: 15px; background: white;
+	position: relative; 
+	font-family: 'NewTegomin', sans-serif;
+	transition: transform 0.2s ease, box-shadow 0.2s ease; } 
 
-/* ===== 切り欠き（M型） ===== */
-.ticket::after {
-  content: "";
-  position: absolute;
-  right: 10px;        /* ← 右端から少し内側（位置調整） */
-  bottom: -30px;      /* ← 初期は下にはみ出して非表示 */
-  width: 40px;
-  height: 30px;
-  background: #faf5e6; /* 切符と同じ色 */
-  border: 2px solid #333;
-  border-top: none;    /* 上側の線はいらない */
-  clip-path: polygon(
-    0% 0%, 100% 0%, 100% 100%,
-    65% 100%, 50% 60%, 35% 100%, 0% 100%
-  );
-  transition: bottom 0.2s ease-out;
-}
-
-/* ===== ホバー時にだけ切り欠きを表示 ===== */
-.ticket:hover::after {
-  bottom: 0; /* ぴったり角に収まる */
-}
-
-/* ===== パーツごとの装飾 ===== */
+/* ===== ホバー時の浮き上がり演出（簡易） ===== */
+.ticket:hover .ticket-inner { 
+	transform: translateY(-3px); 
+	box-shadow: 4px 4px 0px black;
+} 
+/* ===== パーツごとの装飾 ===== */ 
 .ticket-date {
-  font-size: 12px;
-  margin-bottom: 6px;
-  color: #555;
+	font-size: 12px; 
+	margin-bottom: 6px;
+	color: #555; 
 }
+.ticket-title { 
+	font-size: 20px; 
+	font-weight: bold; 
+	margin-bottom: 5px; 
+} 
 
-.ticket-title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.ticket-to {
-  font-size: 14px;
-  text-align: right;
-  color: #333;
+.ticket-to { 
+	font-size: 14px; 
+	text-align: right; 
+	color: #333; 
 }
 
 
