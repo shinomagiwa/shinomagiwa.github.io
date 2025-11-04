@@ -78,27 +78,3 @@ z-index: 1000; /* 他の要素の上に表示 */
 /*h3{
 	color:black;
 }*/
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
- ===== 背景：淡い紙風 ===== 
-body {
-  background: #f8f3e7; /* ベースの紙色（薄いクリーム） 
-  background-image:
-    radial-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0));
-  background-size: 3px 3px, 100% 200%;
-}
-
-*/
