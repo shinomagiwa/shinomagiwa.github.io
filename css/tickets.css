@@ -119,18 +119,11 @@ h3{
 	margin-bottom: 6px;
 	color: #555; 
 }
-.ticket-title { 
+.ticket-to { 
 	font-size: 20px; 
 	font-weight: bold; 
 	margin-bottom: 5px; 
 } 
-
-.ticket-to { 
-	font-size: 14px; 
-	text-align: right; 
-	color: #333; 
-}
-
 body{
 	background-color:white;
 }
