@@ -108,7 +108,7 @@ h3{
 	font-family: 'NewTegomin', sans-serif;
 	transition: transform 0.2s ease, box-shadow 0.2s ease; } 
 
-/* ===== ホバー時の浮き上がり演出（簡易） ===== */
+/* ===== ホバー時の浮き上がり演出（簡易） ===== 
 .ticket:hover .ticket-inner { 
 	transform: translateY(-3px); 
 	box-shadow: 4px 4px 0px black;
