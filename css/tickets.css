@@ -98,8 +98,7 @@ h3{
 /* ===== 各切符全体（リンク含む） ===== */
 .ticket {
 	display: block;  /* 全体をクリックできるように */
-	width: 100%;  /* 横幅いっぱいに広げる（親要素に合わせる） */
-	/*width: 280px; */
+	width: 260px;
 	text-decoration: none; /* 下線を消す */
 	color: black; 　
 	font-family: 'NewTegomin', sans-serif; 
