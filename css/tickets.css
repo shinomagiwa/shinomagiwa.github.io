@@ -51,10 +51,10 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 
 .selected{
-	font-color: #959595;
+	color: #959595;
 }
 
-/*真ん中に寄せる*/
+
 .main{
 	max-width: 800px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
@@ -94,6 +94,7 @@ h3{
   gap: 30px;               /* 切符間の余白 */
   margin-top: 40px;        /* 上余白 */
 　align-items: center; 　　/* 切符を中央寄せ */
+　max-width: 260px;
 }
 /* ===== 各切符全体（リンク含む） ===== */
 .ticket {
@@ -101,7 +102,6 @@ h3{
 	width: 260px;
 	text-decoration: none; /* 下線を消す */
 	color: black; 　
-	font-family: 'NewTegomin', sans-serif; 
 } 
 /* ===== 切符の枠部分 ===== */
 .ticket-inner {
