@@ -1,10 +1,7 @@
 @charset "utf-8";
 
 
-body {
-  font-family: 'NewTegomin', serif;
-　background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
-}
+
 
 
 .header{
@@ -56,7 +53,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 
 .main{
-	max-width: 800px;
+	max-width: 260px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
 }
@@ -93,8 +90,7 @@ h3{
   flex-direction: column;  /* 縦方向に1枚ずつ並べる */
   gap: 30px;               /* 切符間の余白 */
   margin-top: 40px;        /* 上余白 */
-　align-items: center; 　　/* 切符を中央寄せ */
-　max-width: 260px;
+　/*align-items: center; 　　/* 切符を中央寄せ */
 }
 /* ===== 各切符全体（リンク含む） ===== */
 .ticket {
@@ -109,7 +105,6 @@ h3{
 	padding: 25px 20px; /* 内側に余白 */
 	background: white;
 	position: relative; /* 相対位置指定（調整用） */
-	font-family: 'NewTegomin', sans-serif;
 	transition: transform 0.2s ease, box-shadow 0.2s ease; /* ゆっくり動く */
 } 
 /* ===== ホバー時の演出 ===== */
@@ -127,4 +122,13 @@ h3{
   font-size: 22px;      /* 行き先（タイトル）は少し大きめ */
   font-weight: bold;    /* 太字に */
   margin-bottom: 8px;   /* 下に余白 */
+}
+
+
+
+
+
+
+body {
+　background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
 }
