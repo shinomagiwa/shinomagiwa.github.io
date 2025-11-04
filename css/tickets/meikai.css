@@ -7,7 +7,7 @@
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background-color: #333; /* ヘッダーの背景色 */
+	background-color: black; /* ヘッダーの背景色 */
   color: white; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
@@ -79,14 +79,8 @@ body {
 
 
 
-h3{
-	color:white;
-}
-
-
-
 
 body {
-  background: black; 
+  background: #333; 
  
 }
