@@ -63,6 +63,7 @@ body {
 	max-width: 800px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
+  font-color:white;
 }
 
 
@@ -79,23 +80,13 @@ body {
 
 
 h3{
-	color:white;
+	font-color:white;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-/* ===== 背景：淡い紙風 ===== */
 body {
-  background: black; /* ベースの紙色（薄いクリーム） */
+  background: black; 
  
 }
