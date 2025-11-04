@@ -22,7 +22,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 body { 
 	font-family: 'NewTegomin', serif; 
-	font-color:white
+	color:white
 	 }
 
 
@@ -55,7 +55,7 @@ body {
 }
 
 .selected{
-	font-color: #959595;
+	color: #959595;
 }
 
 /*真ん中に寄せる*/
@@ -63,7 +63,7 @@ body {
 	max-width: 800px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
-  font-color:white;
+  color:white;
 }
 
 
@@ -80,7 +80,7 @@ body {
 
 
 h3{
-	font-color:white;
+	color:white;
 }
 
 
