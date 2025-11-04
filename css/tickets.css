@@ -125,6 +125,7 @@ h3{
 	margin-bottom: 5px; 
 } 
 
-body{
-	background-color:white;
+body {
+  background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
+
 }
