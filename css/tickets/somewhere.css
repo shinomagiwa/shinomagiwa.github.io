@@ -9,7 +9,7 @@ body {
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background-color: white; /* ヘッダーの背景色 */
+	background: #f8f3e7; 
   color: #5CBCCF; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
@@ -49,7 +49,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 
 .selected{
-	font-color: #9BD4DE;
+	color: #9BD4DE;
 }
 
 /*真ん中に寄せる*/
@@ -71,7 +71,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 
 .somewhere{
-	font-color: #5CBCCF;
+	color: #5CBCCF;
 }
 
 
