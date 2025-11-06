@@ -9,8 +9,8 @@ body {
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background:#5CBCCF; 
-  color: white; /* 文字の色 */
+	background:white; 
+  color: #5CBCCF; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
   top: 0; /* 画面の最上部に配置 */
@@ -57,7 +57,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 	max-width: 800px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
-	color: #333;
+	color: #5CBCCF;
 }
 
 
@@ -74,7 +74,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 
 body{
-	background:white;
+	background: #5CBCCF;
 }
 
 
