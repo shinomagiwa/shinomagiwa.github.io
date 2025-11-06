@@ -9,8 +9,8 @@ body {
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background: white; 
-  color: #5CBCCF; /* 文字の色 */
+	background:#5CBCCF; 
+  color: white; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
   top: 0; /* 画面の最上部に配置 */
