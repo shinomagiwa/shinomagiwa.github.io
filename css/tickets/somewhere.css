@@ -57,6 +57,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 	max-width: 800px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
+	color: #5CBCCF;
 }
 
 
@@ -70,9 +71,7 @@ z-index: 1000; /* 他の要素の上に表示 */
   padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
 }
 
-.somewhere{
-	color: #5CBCCF;
-}
+
 
 body{
 	background:white;
