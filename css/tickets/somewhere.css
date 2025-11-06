@@ -36,7 +36,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 .headerlist a {
   text-decoration: none; /* リンクの下線を消す */
-  color: #5CBCCF; /* リンクの色を変更（任意） */
+  color: white; /* リンクの色を変更（任意） */
 	/*padding: 8px 12px;  クリックしやすくする */
   transition: background 0.2s;
 	transition: color 0.2s ease; /* 色変化を滑らかに */
@@ -45,11 +45,11 @@ z-index: 1000; /* 他の要素の上に表示 */
 /* カーソルを合わせた時のスタイル */
 .headerlist a:hover {
   /*background-color: #fff;*/
-	color: #9BD4DE;
+	color: #B0DDE5;
 }
 
-.selected{
-	color: #9BD4DE;
+.headerlist selected{
+	color: #B0DDE5;
 }
 
 /*真ん中に寄せる*/
