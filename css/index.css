@@ -12,10 +12,10 @@ body, html {
 .title-screen {
   height: 100vh; /* 画面いっぱいの高さ */
   width: 100%;
-  background: linear-gradient(to bottom, #1a1a1a, #333); /* 背景（画像でも可） */
-  /* 画像を使う場合は以下のように変更可能：
-  background: url('../img/bg.jpg') no-repeat center center/cover;
-  */
+  /*background: linear-gradient(to bottom, #1a1a1a, #333);  
+  画像を使う場合は以下のように変更可能：*/
+  background: url('../pic/background.jpg') no-repeat center center/cover;
+  
   display: flex;
   align-items: center;
   justify-content: center;
