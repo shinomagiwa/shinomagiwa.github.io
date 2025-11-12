@@ -26,6 +26,7 @@ body { font-family: 'NewTegomin', serif; }
 
 .header-logo{
   font-size:30px;
+  color: white; /* リンクの色を変更（任意） */
 }
 
 .headerlist ul{
