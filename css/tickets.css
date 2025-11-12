@@ -22,6 +22,7 @@ z-index: 1000; /* 他の要素の上に表示 */
 
 .header-logo{
   font-size:30px;
+  color: white;
 }
 
 .headerlist ul{
@@ -42,6 +43,11 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 
 /* カーソルを合わせた時のスタイル */
+.header-logo:hover {
+  /*background-color: #fff;*/
+	color: #959595;
+}
+
 .headerlist a:hover {
   /*background-color: #fff;*/
 	color: #959595;
@@ -52,8 +58,15 @@ z-index: 1000; /* 他の要素の上に表示 */
 }
 
 
+/*
 .main{
-	max-width: 700px;
+max-width:700px
+}
+
+*/
+
+.main{
+	max-width: 260px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
 }
@@ -131,6 +144,6 @@ h3{
 
 
 body {
-  background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
-
+  /*background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
+background: url('../pic/background.jpg') no-repeat center center/cover;
 }
