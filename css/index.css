@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* 全体リセット */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'NewTegomin', serif;
+}
+
+/* 背景を全画面に広げる */
+.title-screen {
+  height: 100vh; /* 画面いっぱいの高さ */
+  width: 100%;
+  background: linear-gradient(to bottom, #1a1a1a, #333); /* 背景（画像でも可） */
+  /* 画像を使う場合は以下のように変更可能：
+  background: url('../img/bg.jpg') no-repeat center center/cover;
+  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* 中央のコンテンツ全体 */
+.title-content {
+  text-align: center;
+  animation: fadein 2s ease;
+}
+
+/* タイトル文字 */
+.site-title {
+  font-size: 60px;
+  letter-spacing: 0.2em;
+  margin-bottom: 40px;
+}
+
+/* メニュー */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: 22px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #cccccc;
+}
+
+/* フェードイン効果 */
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
