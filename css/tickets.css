@@ -4,62 +4,6 @@
 
 
 
-.header{
-	display: flex; /* ロゴとメニューを横並び */
-	align-items: center; /* 縦方向の中央揃え */
-	width: 100%; /* 幅を画面いっぱいに */
-	background-color: #333; /* ヘッダーの背景色 */
-  color: white; /* 文字の色 */
-  padding: 15px 20px; /* 上下・左右の余白 */
-  position: fixed; /* ページ上部に固定 */
-  top: 0; /* 画面の最上部に配置 */
-  left: 0;
-	/*font-family: 'OradanoGSRR', sans-serif;*/
-	
-	
-z-index: 1000; /* 他の要素の上に表示 */
-}
-
-.header-logo{
-  font-size:30px;
-  text-decoration: none; /* リンクの下線を消す */
-  color: white;
-  transition: background 0.2s;
-  transition: color 0.2s ease; /* 色変化を滑らかに */
-}
-
-.headerlist ul{
-  font-size:20px;
-  list-style: none; /* リストの点を消す */
-	display: flex; /* 横並びにする */
-}
-.headerlist li {
-  margin-left: 30px; /* メニュー同士の間隔 */
-}
-
-.headerlist a {
-  text-decoration: none; /* リンクの下線を消す */
-  color: white; /* リンクの色を変更（任意） */
-	/*padding: 8px 12px;  クリックしやすくする */
-  transition: background 0.2s;
-	transition: color 0.2s ease; /* 色変化を滑らかに */
-}
-
-/* カーソルを合わせた時のスタイル */
-.header-logo:hover {
-  /*background-color: #fff;*/
-	color: #959595;
-}
-
-.headerlist a:hover {
-  /*background-color: #fff;*/
-	color: #959595;
-}
-
-.selected{
-	color: #959595;
-}
-
 
 /*
 .main{
@@ -139,15 +83,4 @@ h3{
   font-size: 22px;      /* 行き先（タイトル）は少し大きめ */
   font-weight: bold;    /* 太字に */
   margin-bottom: 8px;   /* 下に余白 */
-}
-
-
-
-
-
-
-body {
-  /*background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
-background: url('../pic/background.jpg') no-repeat center center/cover;
-; /* 他の要素の上に表示 */
 }
