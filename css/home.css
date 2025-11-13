@@ -10,15 +10,11 @@
 
 .notice, .news {
   border: 2px solid #ccc; /* 白い枠線だけ */
-  padding: 5px;
-  margin-top: 5px;
 }
 
 .notice h3, .news h3 {
   font-size: 1.2em;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
 }
 
 .notice ul, .news ul{
