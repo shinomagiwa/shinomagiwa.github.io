@@ -62,9 +62,9 @@ h3{
 } 
 /* ===== 切符の枠部分 ===== */
 .ticket-inner {
-	border: 2px solid black; /* 黒い枠線 */
+	/*border: 2px solid black; /* 黒い枠線 */
 	padding: 25px 20px; /* 内側に余白 */
-	background: white;
+	background: #f8f3e7; /* ベースの紙色（薄いクリーム）
 	position: relative; /* 相対位置指定（調整用） */
 	transition: transform 0.2s ease, box-shadow 0.2s ease; /* ゆっくり動く */
 } 
