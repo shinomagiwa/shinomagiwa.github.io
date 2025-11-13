@@ -22,3 +22,8 @@
   margin-bottom: 10px;
 }
 
+.notice ul, .news ul{
+  font-size:20px;
+  list-style: none; /* リストの点を消す */
+	display: flex; /* 横並びにする */
+}
