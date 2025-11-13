@@ -47,7 +47,7 @@ max-width:700px
   flex-direction: column;  /* 縦方向に1枚ずつ並べる */
   gap: 30px;               /* 切符間の余白 */
   margin-top: 40px;        /* 上余白 */
-　/*align-items: center; 　　/* 切符を中央寄せ */
+　align-items: center; 　　/* 切符を中央寄せ */
 }
 /* ===== 各切符全体（リンク含む） ===== */
 .ticket {
