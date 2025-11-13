@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+body {
+  /*background: #f8f3e7; /* ベースの紙色（薄いクリーム） */
+background: url('../pic/background.jpg') no-repeat center center fixed;
+background-size:cover;
+color: #000;
+}
+
+
+
+
+
+.header{
+	display: flex; /* ロゴとメニューを横並び */
+	align-items: center; /* 縦方向の中央揃え */
+	width: 100%; /* 幅を画面いっぱいに */
+	background-color: rgba(51, 51, 51, 0.8); /* 少し透ける黒 */
+  color: white; /* 文字の色 */
+  padding: 15px 20px; /* 上下・左右の余白 */
+  position: fixed; /* ページ上部に固定 */
+  top: 0; /* 画面の最上部に配置 */
+  left: 0;
+
+z-index: 1000; /* 他の要素の上に表示 */
+box-sizing: border-box;
+}
+
+
+.header-logo {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.header-logo:hover {
+  color: #959595;
+}
+
+.headerlist ul{
+  font-size:20px;
+  list-style: none; /* リストの点を消す */
+	display: flex; /* 横並びにする */
+}
+.headerlist li {
+  margin-left: 30px; /* メニュー同士の間隔 */
+}
+
+.headerlist a {
+  text-decoration: none; /* リンクの下線を消す */
+  color: white; /* リンクの色を変更（任意） */
+	/*padding: 8px 12px;  クリックしやすくする */
+  transition: background 0.2s;
+	transition: color 0.2s ease; /* 色変化を滑らかに */
+}
+
+/* カーソルを合わせた時のスタイル */
+.headerlist a:hover {
+  /*background-color: #fff;*/
+	color: #959595;
+}
+
+.headerlist .selected{
+	font-color: #959595;
+}
+
+/*真ん中に寄せる*/
+.main{
+	max-width: 700px;
+  margin: 100px auto; /* ヘッダーとの間隔を広げる */
+  padding: 20px;
+ box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.no-dots {
+  list-style: none; /* リストマーカーを消す */
+  padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
+}
+
+
+
+h3{
+	color:white;
+}
+
+p{
+	font-size:20px;
+}
+
+
+
