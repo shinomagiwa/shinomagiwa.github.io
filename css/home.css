@@ -13,10 +13,11 @@
 }
 
 .notice h3, .news h3 {
+  position: relative;
   font-size: 1.2em;
-  border-bottom: 1px solid #ccc;
-  margin: 0;     /* ← これが必要 */
-  padding: 5px;  /* 境界線と文字がくっつきすぎるので少し付けるのが一般的 */
+  border: 1px white solid;
+  margin: 0;
+  padding: 20px;
 }
 
 .notice ul, .news ul{
