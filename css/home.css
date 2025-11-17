@@ -9,15 +9,13 @@
 }*/
 
 .notice, .news {
-  border: 2px solid #ccc; /* 白い枠線だけ */
+  border: 2px white solid;
+  padding: 20px;
 }
 
 .notice h3, .news h3 {
-  position: relative;
   font-size: 1.2em;
-  border: 1px white solid;
   margin: 0;
-  padding: 20px;
 }
 
 .notice ul, .news ul{
