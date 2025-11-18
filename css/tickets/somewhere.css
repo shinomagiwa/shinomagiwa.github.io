@@ -1,8 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
-body {
-  font-family: 'NewTegomin', serif;
+
+body{
+	background: #5CBCCF;
 }
 
 .header{
@@ -19,10 +20,18 @@ body {
 	
 	
 z-index: 1000; /* 他の要素の上に表示 */
+box-sizing: border-box;
 }
 
 .header-logo{
   font-size:30px;
+　text-decoration: none;
+　color: #5CBCCF;
+　transition: color 0.2s ease;
+}
+
+.header-logo:hover {
+  color: #B0DDE5;
 }
 
 .headerlist ul{
@@ -48,16 +57,13 @@ z-index: 1000; /* 他の要素の上に表示 */
 	color: #B0DDE5;
 }
 
-.headerlist selected{
-	color: #B0DDE5;
-}
-
 /*真ん中に寄せる*/
 .main{
 	max-width: 700px;
-  margin: 100px auto; /* ヘッダーとの間隔を広げる */
-  padding: 20px;
+ 　 margin: 100px auto; /* ヘッダーとの間隔を広げる */
+  　padding: 20px;
 	color: white;
+	box-sizing: border-box;
 }
 
 
@@ -70,14 +76,3 @@ z-index: 1000; /* 他の要素の上に表示 */
   list-style: none; /* リストマーカーを消す */
   padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
 }
-
-
-
-body{
-	background: #5CBCCF;
-}
-
-
-/*h3{
-	color:black;
-}*/
