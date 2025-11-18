@@ -2,16 +2,17 @@
 /* CSS Document */
 
 
-body{
-	background: #5CBCCF;
+body {
+  background: black;
 }
+
 
 .header{
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background:white; 
-  color: #5CBCCF; /* 文字の色 */
+	background-color: #f8f3e7; /* ヘッダーの背景色 */
+  color: #333; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
   top: 0; /* 画面の最上部に配置 */
@@ -23,15 +24,17 @@ z-index: 1000; /* 他の要素の上に表示 */
 box-sizing: border-box;
 }
 
+
+
 .header-logo{
   font-size:30px;
-　text-decoration: none;
-　color: #5CBCCF;
-　transition: color 0.2s ease;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
 }
 
 .header-logo:hover {
-  color: #B0DDE5;
+  color: #636363;
 }
 
 .headerlist ul{
@@ -45,7 +48,7 @@ box-sizing: border-box;
 
 .headerlist a {
   text-decoration: none; /* リンクの下線を消す */
-  color: #5CBCCF; /* リンクの色を変更（任意） */
+  color: #333; /* リンクの色を変更（任意） */
 	/*padding: 8px 12px;  クリックしやすくする */
   transition: background 0.2s;
 	transition: color 0.2s ease; /* 色変化を滑らかに */
@@ -54,18 +57,20 @@ box-sizing: border-box;
 /* カーソルを合わせた時のスタイル */
 .headerlist a:hover {
   /*background-color: #fff;*/
-	color: #B0DDE5;
+	color: #636363;
 }
 
 
-
+/*真ん中に寄せる*/
 .main{
 	max-width: 700px;
- 　 margin: 100px auto;
-  　padding: 20px;
-	color: white;
-	box-sizing: border-box;
+  margin: 100px auto; /* ヘッダーとの間隔を広げる */
+  padding: 20px;
+  color:white;
+  box-sizing: border-box;
 }
+
+
 
 
 
