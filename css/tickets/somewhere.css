@@ -61,7 +61,7 @@ box-sizing: border-box;
 
 .main{
 	max-width: 700px;
- 　 margin: 100px auto; /* ヘッダーとの間隔を広げる */
+ 　 margin: 100px auto;
   　padding: 20px;
 	color: white;
 	box-sizing: border-box;
