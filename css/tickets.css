@@ -56,8 +56,12 @@ max-width:700px
 	width: 260px;
 	text-decoration: none; /* 下線を消す */
 	color: #333; 　
+
+
+
 	
 	margin: 20px auto;
+	
 	display: block;
 } 
 /* ===== 切符の枠部分 ===== */
