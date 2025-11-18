@@ -57,7 +57,8 @@ box-sizing: border-box;
 	color: #B0DDE5;
 }
 
-/*真ん中に寄せる*/
+
+
 .main{
 	max-width: 700px;
  　 margin: 100px auto; /* ヘッダーとの間隔を広げる */
