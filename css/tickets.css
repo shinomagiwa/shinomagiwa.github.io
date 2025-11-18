@@ -55,14 +55,9 @@ max-width:700px
 	display: block;  /* 全体をクリックできるように */
 	width: 260px;
 	text-decoration: none; /* 下線を消す */
-	color: #333; 　
-
-
-
-	
 	margin: 20px auto;
-	
 	display: block;
+	color: #333;
 } 
 /* ===== 切符の枠部分 ===== */
 .ticket-inner {
