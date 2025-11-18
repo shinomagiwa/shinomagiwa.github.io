@@ -2,6 +2,10 @@
 /* CSS Document */
 
 
+body {
+  background: black;
+}
+
 
 .header{
 	display: flex; /* ロゴとメニューを横並び */
@@ -17,17 +21,20 @@
 	
 	
 z-index: 1000; /* 他の要素の上に表示 */
+box-sizing: border-box;
 }
-
-
-body { 
-	font-family: 'NewTegomin', serif;
-	 }
 
 
 
 .header-logo{
   font-size:30px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.header-logo:hover {
+  color: #636363;
 }
 
 .headerlist ul{
@@ -53,9 +60,6 @@ body {
 	color: #636363;
 }
 
-.headerlist selected{
-	color: #636363;
-}
 
 /*真ん中に寄せる*/
 .main{
@@ -63,6 +67,7 @@ body {
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
   padding: 20px;
   color:white;
+  box-sizing: border-box;
 }
 
 
@@ -74,12 +79,4 @@ body {
 .no-dots {
   list-style: none; /* リストマーカーを消す */
   padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
-}
-
-
-
-
-body {
-  background: black; 
-
 }
