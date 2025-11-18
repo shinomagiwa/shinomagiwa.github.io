@@ -19,7 +19,7 @@ color: #FFF;
 	display: flex; /* ロゴとメニューを横並び */
 	align-items: center; /* 縦方向の中央揃え */
 	width: 100%; /* 幅を画面いっぱいに */
-	background-color: rgba(51, 51, 51, 0.5); /* 少し透ける黒 */
+	background-color: rgba(19, 68, 109, 0.5); /* 少し透ける黒 */
   color: white; /* 文字の色 */
   padding: 15px 20px; /* 上下・左右の余白 */
   position: fixed; /* ページ上部に固定 */
