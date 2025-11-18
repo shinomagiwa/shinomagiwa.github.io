@@ -23,4 +23,5 @@
 
 body { 
 	font-family: 'NewTegomin',serif; 
+	cursor: url('../pic/cursor.png'), auto;
 }
