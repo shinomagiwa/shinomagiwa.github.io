@@ -89,6 +89,13 @@ box-sizing: border-box;
   text-align: center;
 }
 
+.char h3 {
+  font-size: 1rem;   /* 紹介文より少し大きい */
+  margin-top: 8px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
 .char img {
   width: 80%;
   aspect-ratio: 1 / 1; /* 正方形を維持 */
