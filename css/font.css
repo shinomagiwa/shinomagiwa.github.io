@@ -24,8 +24,8 @@
 html,body { 
 	height:100%;
 	font-family: 'NewTegomin',serif; 
-	cursor: url('../pic/cursor.png'), auto;
+	cursor: url('../pic/cursor00.png'), auto;
 }
 a {
-  cursor: url('../pic/cursor.png') , auto;
+  cursor: url('../pic/cursor00.png') , auto;
 }
