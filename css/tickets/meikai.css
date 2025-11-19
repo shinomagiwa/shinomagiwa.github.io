@@ -80,12 +80,12 @@ box-sizing: border-box;
 .characters {
   display: flex;
   gap: 20px;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap; /* 画面幅が狭いと折り返される */
 }
 
 .char {
-  width: 23%; /* 4人が横に入る幅 */
+  width: 160px; /* 4人が横に入る幅 */
   text-align: center;
 }
 
