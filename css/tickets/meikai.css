@@ -76,6 +76,40 @@ box-sizing: border-box;
 
 
 
+
+.characters {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; /* 画面幅が狭いと折り返される */
+}
+
+.char {
+  width: 23%; /* 4人が横に入る幅 */
+  text-align: center;
+}
+
+.char img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 正方形を維持 */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.char p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
 .no-dots {
   list-style: none; /* リストマーカーを消す */
   padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
