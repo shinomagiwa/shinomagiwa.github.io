@@ -103,7 +103,7 @@ box-sizing: border-box;
   border-radius: 8px;
 }
 
-.char p {
+.characters .char p {
   margin-top: 10px;
   font-size: 0.9rem;
   line-height: 1.5;
