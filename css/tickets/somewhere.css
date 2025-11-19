@@ -85,7 +85,7 @@ box-sizing: border-box;
 }
 
 .char {
-  width: 160px; /* 4人が横に入る幅 */
+  width: 150px; /* 4人が横に入る幅 */
   text-align: center;
 }
 
