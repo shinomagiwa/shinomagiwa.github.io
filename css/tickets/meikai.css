@@ -86,7 +86,7 @@ box-sizing: border-box;
 
 .char {
   width: 150px; /* 4人が横に入る幅 */
-  /*text-align: center;*/
+  text-align: center;
 }
 
 .char h3 {
