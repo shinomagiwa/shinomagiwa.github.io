@@ -90,7 +90,7 @@ box-sizing: border-box;
 }
 
 .char img {
-  width: 80%;
+  width: 100%;
   aspect-ratio: 1 / 1; /* 正方形を維持 */
   object-fit: cover;
   border-radius: 8px;
