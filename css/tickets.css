@@ -43,7 +43,7 @@ max-width:700px
 /* ===== 切符一覧のレイアウト ===== */ 
 .ticket-list {
  max-width: 260px;
-  display: flex;           /* レイアウトを柔軟に配置 */
+  /*display: flex;           /* レイアウトを柔軟に配置 */
 	align-items: center; 　　 /*切符を中央寄せ */
   flex-direction: column;  /* 縦方向に1枚ずつ並べる */
   gap: 30px;               /* 切符間の余白 */
@@ -59,7 +59,6 @@ max-width:700px
 width: 260px; 
 text-decoration: none; /* 下線を消す */
  margin: 20px auto; 
-display: block; 
 color: #555; 
 }
 
@@ -82,7 +81,9 @@ transform: translateY(-3px); box-shadow:
 .ticket-date {
  font-size: 12px; /* 日付部分は小さめ */
  margin-bottom: 6px; /* 下に余白 */
- color: #777; /* やや薄い色 */ } 
+ color: #777; /* やや薄い色 */ 
+} 
+
 .ticket-to { 
 font-size: 25px; /* 行き先（タイトル）*/
  font-weight: bold; /* 太字に */ 
