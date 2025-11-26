@@ -34,7 +34,7 @@ box-sizing: border-box;
 }
 
 .header-logo:hover {
-  color: #636363;
+  color: #666;
 }
 
 .headerlist ul{
@@ -57,7 +57,7 @@ box-sizing: border-box;
 /* カーソルを合わせた時のスタイル */
 .headerlist a:hover {
   /*background-color: #fff;*/
-	color: #636363;
+	color: #666;
 }
 
 
