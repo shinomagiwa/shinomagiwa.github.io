@@ -44,63 +44,47 @@ max-width:700px
 .ticket-list {
  max-width: 260px;
   display: flex;           /* レイアウトを柔軟に配置 */
+	align-items: center; 　　 /*切符を中央寄せ */
   flex-direction: column;  /* 縦方向に1枚ずつ並べる */
   gap: 30px;               /* 切符間の余白 */
   margin-top: 40px;        /* 上余白 */
-　align-items: center; 　　 /*切符を中央寄せ */
+　
 	
 }
+
+
 /* ===== 各切符全体（リンク含む） ===== */
 .ticket {
-	display: block;  /* 全体をクリックできるように */
-	width: 260px;
-	text-decoration: none; /* 下線を消す */
-	margin: 20px auto;
-	display: block;
-	color: #555;
-} 
-/* ===== 切符の枠部分 ===== */
-.ticket-inner {
-	padding: 25px 20px; /* 内側に余白 */
-	background: #f8f3e7; /* ベースの紙色（薄いクリーム）*/
-	position: relative; /* 相対位置指定（調整用） */
-	transition: transform 0.2s ease, box-shadow 0.2s ease; /* ゆっくり動く */
-	
-	display: flex;         /* ← 横並び */
-    align-items: center;   /* 縦位置を揃える */
-    gap: 15px;             /* 左右の余白 */
-} 
-
-
-/* ===== ホバー時の演出 ===== */
-.ticket:hover .ticket-inner {
-  transform: translateY(-3px); 
-  box-shadow: 4px 4px 0px rgba(51, 51, 51, 0.5);
+ display: block; /* 全体をクリックできるように */ 
+width: 260px; 
+text-decoration: none; /* 下線を消す */
+ margin: 20px auto; 
+display: block; 
+color: #555; 
 }
 
 
-/* 左側 */
-.ticket-left {
-  width: 20px;             /* 左端の幅（お好みで調整） */
-  display: flex;
-  justify-content: center;
+ /* ===== 切符の枠部分 ===== */
+ .ticket-inner {
+ padding: 25px 20px; /* 内側に余白 */
+ background: #f8f3e7; /* ベースの紙色（薄いクリーム）
+ position: relative; /* 相対位置指定（調整用） */ 
+transition: transform 0.2s ease, box-shadow 0.2s ease; /* ゆっくり動く */ 
 }
-/*日付*/
+ /* ===== ホバー時の演出 ===== */
+ .ticket:hover .ticket-inner { 
+transform: translateY(-3px); box-shadow:
+ 4px 4px 0px rgba(51, 51, 51, 0.5); 
+} 
+
+
+/* ===== 切符内の文字部分 ===== */ 
 .ticket-date {
-  font-size: 12px;      /* 日付部分は小さめ */
-  margin-bottom: 6px;   /* 下に余白 */
-  color: #777;          /* やや薄い色 */
-　transform: rotate(-90deg);
-}
-
-
-/* 右側 */
-.ticket-right {
-  flex: 1; /* 残りの幅を全部使う */
-}
-/*行先*/
-.ticket-to {
-  font-size: 25px;      /* 行き先（タイトル）*/
-  font-weight: bold;    /* 太字に */
-  margin-bottom: 8px;   /* 下に余白 */
-}
+ font-size: 12px; /* 日付部分は小さめ */
+ margin-bottom: 6px; /* 下に余白 */
+ color: #777; /* やや薄い色 */ } 
+.ticket-to { 
+font-size: 25px; /* 行き先（タイトル）*/
+ font-weight: bold; /* 太字に */ 
+margin-bottom: 8px; /* 下に余白 */
+ }
