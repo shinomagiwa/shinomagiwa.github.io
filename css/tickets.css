@@ -74,11 +74,11 @@ max-width:700px
 /* ===== 切符内の文字部分 ===== */
 .ticket-date {
   font-size: 12px;      /* 日付部分は小さめ */
-  margin-bottom: 12px;   /* 下に余白 */
+  margin-bottom: 6px;   /* 下に余白 */
   color: #777;          /* やや薄い色 */
 }
 .ticket-to {
-  font-size: 32px;      /* 行き先（タイトル）
-  font-weight: bold;    /* 太字に 
+  font-size: 32px;      /* 行き先（タイトル）*/
+  font-weight: bold;    /* 太字に */
   margin-bottom: 8px;   /* 下に余白 */
 }
