@@ -1,16 +1,16 @@
 @charset "utf-8";
 
 
-/*.home-info {
+.home-info {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   margin-top: 30px;
-}*/
+}
 
 .notice, .news {
   border: 2px white solid;
-  padding: 20px;
+  padding: 0px;
 }
 
 .notice h3, .news h3 {
