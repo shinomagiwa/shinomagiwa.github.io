@@ -17,13 +17,21 @@
 }
 
 .notice {
-  width:380px;
+  width:400px;
 }
 
-.news{
-  width:240px;
-  overflow-y: auto;
+.news {
+  display: flex;
+  width:260px;
+  flex-direction: column;
 }
+
+.news ul {
+  overflow-y: auto;
+  flex: 1;         /* ★ ul が残りの領域すべてを使う */
+}
+
+
 
 .notice h3, .news h3 {
   font-size: 20px;
