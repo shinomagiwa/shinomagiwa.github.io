@@ -76,3 +76,7 @@
 
 
 
+
+.news li, .notice li {
+  margin-bottom: 8px;
+}
