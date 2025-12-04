@@ -42,15 +42,15 @@ max-width:700px
 
 /* ===== 切符一覧のレイアウト ===== */ 
 .ticket-list {
- max-width: 260px;
-  /*display: flex;           /* レイアウトを柔軟に配置 */
-	align-items: center; 　　 /*切符を中央寄せ */
-  flex-direction: column;  /* 縦方向に1枚ずつ並べる */
-  gap: 30px;               /* 切符間の余白 */
-  margin-top: 40px;        /* 上余白 */
-　
-	
+  max-width: 260px;
+  display: flex;              /* ← 必須：中央寄せが効くようになる */
+  flex-direction: column;
+  justify-content: center;    /* 上下方向の中央寄せ（任意） */
+  align-items: center;        /* 左右方向の中央寄せ */
+  gap: 30px;
+  margin: 40px auto 0;        /* コンテナ自体も中央へ */
 }
+
 
 
 /* ===== 各切符全体（リンク含む） ===== */
