@@ -2,16 +2,6 @@
 
 
 
-
-
-
-/*
-.main{
-max-width:700px
-}
-
-*/
-
 .main{
 	max-width: 700px;
   margin: 100px auto; /* ヘッダーとの間隔を広げる */
@@ -58,7 +48,7 @@ max-width:700px
  display: block; /* 全体をクリックできるように */ 
 width: 260px; 
 text-decoration: none; /* 下線を消す */
- margin: 20px auto; 
+/* margin: 20px auto; */
 color: #555; 
 }
 
