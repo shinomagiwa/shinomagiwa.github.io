@@ -12,8 +12,8 @@
   height: 130px;
   border: 2px white solid;
   padding: 20px;
-   margin: 0 px;
- background-color: rgba(255,255,255,0.2);
+  margin: 0 px;
+  background-color: rgba(255,255,255,0.2);
 }
 
 .notice {
@@ -24,11 +24,7 @@
   display: flex;
   width:260px;
   flex-direction: column;
-}
-
-.news ul {
-  overflow-y: auto;
-  flex: 1;         /* ★ ul が残りの領域すべてを使う */
+  padding-right: 0px;
 }
 
 
@@ -45,5 +41,38 @@
   
   margin-bottom: 0px;               
   padding: 0px;
-
+　margin: 0;
 }
+
+
+.news ul {
+  overflow-y: auto;
+  flex: 1;         /* ★ ul が残りの領域すべてを使う */
+}
+
+
+
+/* スクロールバーの幅 */
+.news ul::-webkit-scrollbar {
+  width: 8px; /* 細め */
+}
+
+/* 背景（トラック部分） */
+.news ul::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1); /* 枠になじむ透明系 */
+  border-radius: 4px;
+}
+
+/* つまむ部分 */
+.news ul::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.5);
+  border-radius: 4px;
+}
+
+/* hover 時 */
+.news ul::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.7);
+}
+
+
+
