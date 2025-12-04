@@ -35,47 +35,47 @@
   margin:0px;/* 見出しの上下余白を消す */
 }
 
-.notice ul, .news ul{
-  font-size:13px;
-  list-style: none;             
-  padding: 0px;
-　margin: 0px;
+.notice .content,
+.news .content {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
+/* 行間指定（p と p の間） */
+.notice .content p,
+.news .content p {
+  margin: 0 12px 6px 0; /*（右余白12px・下余白6px） */
+}
 
-.news ul {
+.news .content {
   overflow-y: auto;
-  flex: 1;         /* ★ ul が残りの領域すべてを使う */
+  flex: 1;
+  padding-right: 4px; /* スクロールバー分の余白 */
 }
 
 
 
 /* スクロールバーの幅 */
-.news ul::-webkit-scrollbar {
-  width: 8px; /* 細め */
+.news .content::-webkit-scrollbar {
+  width: 8px;
 }
 
 /* 背景（トラック部分） */
-.news ul::-webkit-scrollbar-track {
-  background: rgba(255,255,255,0.1); /* 枠になじむ透明系 */
+.news .content::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
   border-radius: 4px;
 }
 
 /* つまむ部分 */
-.news ul::-webkit-scrollbar-thumb {
+.news .content::-webkit-scrollbar-thumb {
   background: rgba(255,255,255,0.5);
   border-radius: 4px;
 }
 
 /* hover 時 */
-.news ul::-webkit-scrollbar-thumb:hover {
+.news .content::-webkit-scrollbar-thumb:hover {
   background: rgba(255,255,255,0.7);
-}
-
-
-
-
-.news li, .notice li {
-  margin-bottom: 5px;
-  margin-right: 12px;
 }
