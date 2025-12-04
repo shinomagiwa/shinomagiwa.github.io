@@ -9,10 +9,20 @@
 }
 
 .notice, .news {
+  height: 180px;
   border: 2px white solid;
   padding: 20px;
    margin: 0 px;
  background-color: rgba(255,255,255,0.2);
+}
+
+.notice {
+  width:400px;
+}
+
+.news{
+  width:260px;
+  overflow-y: auto;
 }
 
 .notice h3, .news h3 {
