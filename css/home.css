@@ -32,7 +32,7 @@
 .notice h3, .news h3 {
   font-size: 20px;
   padding: 0px;
-  margin:0px;/* 見出しの上下余白を消す */
+  margin: 0 0 15px 0;
 }
 
 .notice .content,
@@ -65,17 +65,17 @@
 
 /* 背景（トラック部分） */
 .news .content::-webkit-scrollbar-track {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.3);
   border-radius: 4px;
 }
 
 /* つまむ部分 */
 .news .content::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.7);
   border-radius: 4px;
 }
 
-/* hover 時 */
+/* hover 時 
 .news .content::-webkit-scrollbar-thumb:hover {
   background: rgba(255,255,255,0.7);
-}
+}*/
