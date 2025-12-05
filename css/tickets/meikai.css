@@ -96,6 +96,10 @@ h2{
 	margin-bottom: 20px;
 }
 
+.team p {
+	margin:0;
+}
+
 
 .characters {
   display: flex;
