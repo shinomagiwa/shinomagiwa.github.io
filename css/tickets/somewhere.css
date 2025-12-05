@@ -79,6 +79,18 @@ h2{
 
 
 
+
+.where p{
+	margin: 0;
+}
+
+.who p{
+	margin: 0;
+}
+
+
+
+
 .characters {
   display: flex;
   gap: 20px;
