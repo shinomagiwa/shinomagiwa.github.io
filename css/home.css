@@ -45,7 +45,10 @@
 }
 
 /* 行間指定（p と p の間） */
-.notice .content p,
+.notice .content p {
+  margin: 0 0 3px 0;
+} 
+
 .news .content p {
   margin: 0 12px 6px 0; /*（右余白12px・下余白6px） */
 }
