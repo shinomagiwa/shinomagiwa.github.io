@@ -79,6 +79,13 @@ box-sizing: border-box;
 	
 }
 
+
+h2{
+	margin-bottom: 10px;
+}
+
+
+
 .space{
   text-align: center;
   margin: 20px 0 20px 0;
@@ -104,8 +111,7 @@ box-sizing: border-box;
 
 .char h3 {
   font-size: 1rem;   /* 紹介文より少し大きい */
-  margin-top: 8px;
-  margin-bottom: 5px;
+  margin:0;
   font-weight: bold;
 }
 
