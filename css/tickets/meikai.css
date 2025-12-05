@@ -85,6 +85,10 @@ box-sizing: border-box;
 }
 
 
+.team{
+	margin-bottom: 20px;
+}
+
 
 .characters {
   display: flex;
