@@ -4,7 +4,7 @@
 display:flex;
   align-items: center; /* 画像とテキストの縦位置を揃える */
   gap: 50px; /* 画像と文章の間隔 */
-  margin: 30px 0;
+  margin: 30px auto;
 }
 
 
