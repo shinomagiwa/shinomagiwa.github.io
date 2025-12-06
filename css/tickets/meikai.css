@@ -151,3 +151,20 @@ h2{
   list-style: none; /* リストマーカーを消す */
   padding-left: 0;  /* 左側の余白をなくす（必要に応じて） */
 }
+
+
+
+
+
+
+
+
+
+
+.meikai-gif {
+  position: fixed;
+  right: 0;   /* 画面右端からの距離 */
+  bottom: 0;  /* 画面下端からの距離 */
+  width: 120px;  /* 好みで調整 */
+  height: auto;
+}
