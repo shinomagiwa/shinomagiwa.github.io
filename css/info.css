@@ -16,10 +16,10 @@ display:flex;
 }
 
 .myname h2{
-  margin: 7px 0;
+  margin: 0 0 10px 0;
 }
 
 
 .myname p{
-  margin: 0 0 10px 0;
+  margin: 0 0 7px 0;
 }
