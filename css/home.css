@@ -9,7 +9,7 @@
 }
 
 .notice, .news {
-  height: 130px;
+  height: 120px;
   border: 2px white solid;
   padding: 20px;
   margin: 0 px;
@@ -32,7 +32,7 @@
 .notice h3, .news h3 {
   font-size: 20px;
   padding: 0px;
-  margin: 0 0 20px 0;
+  margin: 0 0 15px 0;
 }
 
 .notice .content,
